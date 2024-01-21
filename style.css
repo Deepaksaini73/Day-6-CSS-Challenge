@@ -13,7 +13,7 @@ body{
     background-color:yellow;
     width: 10px;
     height: 20px;
-    animation: loading1 3s infinite ; 
+    animation: loading1 2s infinite ; 
     animation-direction: alternate;
     margin: 4px;
 }
@@ -21,7 +21,7 @@ body{
     background-color:yellow;
     width: 10px;
     height: 40px;
-    animation: loading2 3s infinite linear; 
+    animation: loading2 2s infinite linear; 
     animation-direction: alternate;
     margin: 4px;
 }
@@ -29,7 +29,7 @@ body{
     background-color:yellow;
     width: 10px;
     height: 60px;
-    animation: loading3 3s infinite linear; 
+    animation: loading3 2s infinite linear; 
     animation-direction: alternate;
     margin: 4px;
 }
@@ -37,7 +37,7 @@ body{
     background-color:yellow;
     width: 10px;
     height: 80px;
-    animation: loading4 3s infinite linear; 
+    animation: loading4 2s infinite linear; 
     animation-direction: alternate;
     margin: 4px;
 }
@@ -45,7 +45,7 @@ body{
     background-color:yellow;
     width: 10px;
     height: 100px;
-    animation: loading5 3s infinite linear; 
+    animation: loading5 2s infinite linear; 
     animation-direction: alternate;
     margin: 4px;
 }
