@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    background-image: url(OIP.jpeg);
+    background-size: auto;
+}
+.father{
+    display:flex;
+    position: absolute;
+    top: calc(50% - 37px);
+    left: calc(50% - 54px);
+}
+.a{
+    background-color:yellow;
+    width: 10px;
+    height: 20px;
+    animation: loading1 3s infinite ; 
+    animation-direction: alternate;
+    margin: 4px;
+}
+.b{
+    background-color:yellow;
+    width: 10px;
+    height: 40px;
+    animation: loading2 3s infinite linear; 
+    animation-direction: alternate;
+    margin: 4px;
+}
+.c{
+    background-color:yellow;
+    width: 10px;
+    height: 60px;
+    animation: loading3 3s infinite linear; 
+    animation-direction: alternate;
+    margin: 4px;
+}
+.d{
+    background-color:yellow;
+    width: 10px;
+    height: 80px;
+    animation: loading4 3s infinite linear; 
+    animation-direction: alternate;
+    margin: 4px;
+}
+.e{
+    background-color:yellow;
+    width: 10px;
+    height: 100px;
+    animation: loading5 3s infinite linear; 
+    animation-direction: alternate;
+    margin: 4px;
+}
+@keyframes loading1 {
+    0%{
+        height: 100px;
+        
+    }
+}
+@keyframes loading2 {
+    0%{
+        height: 80px;
+        
+    }
+}
+@keyframes loading3 {
+    0%{
+        height: 60px;
+        
+    }
+}
+@keyframes loading4 {
+    0%{
+        height: 40px;
+        
+    }
+}
+    @keyframes loading5 {
+    0%{
+        height: 20px;
+        
+    }
+}
